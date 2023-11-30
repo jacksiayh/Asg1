@@ -12,6 +12,8 @@ header {
     display: flex;
     justify-content: space-between; 
     align-items: center;
+    max-width: 100%;
+    height: auto;
 }
 
 .logo img {
@@ -38,6 +40,8 @@ nav a {
     border-radius: 50%; 
     background-color: white;
     display: inline-block;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -75,6 +79,8 @@ main h1 {
 .image-half {
     flex: 1;
     background: url(SCwithLynn.jpg) center/cover; 
+    max-width: 100%;
+    height: auto;
 }
 
 .quote-half {
@@ -85,6 +91,8 @@ main h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 100%;
+    height: auto;
 }
 
 .quote-half blockquote {
@@ -107,6 +115,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
+    height: auto;
 }
 
 .socialmedia {
@@ -117,6 +127,34 @@ footer {
     height: 20px; 
     margin-right: 5px; 
 }
+
+.responsiveimg {
+    max-width: 100%;
+    height: auto;
+}
+
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.abtSC {
+    background-color: #f8d7da; /* Add your desired background color */
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+
+
 
 /* Responsive styles for smaller screens */
 @media screen and (max-width: 600px) {
