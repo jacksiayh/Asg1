@@ -10,7 +10,7 @@ header {
     color: #fff;
     padding: 10px;
     display: flex;
-    justify-content: space-between; /* Align logo to the left and navigation to the right */
+    justify-content: space-between; 
     align-items: center;
 }
 
@@ -44,17 +44,84 @@ nav a {
 h1, h2, h3 {
     color: #333;
 }
-
 main {
     padding: 20px;
-    max-width: 600px;
+    max-width: auto;
     margin: 0 auto;
+    text-align: center;
+    background-color: coral;
+}
+
+main h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+} 
+
+.welcome-section {
+    margin-bottom: 20px;
+}
+
+.tagline {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.split-screen {
+    display: flex;
+    height: 100vh;
+}
+
+.image-half {
+    flex: 1;
+    background: url(SCwithLynn.jpg) center/cover; 
+}
+
+.quote-half {
+    flex: 0.5;
+    padding: 20px;
+    background-color: #fff;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quote-half blockquote {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    flex: 1;
+}
+
+.quote-half cite {
+    display: block;
+    font-style: italic;
+}  
+
+
+footer {
+    background-color: peachpuff;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialmedia {
+    margin-bottom: 20px;
+}
+
+.socialmedia img {
+    height: 20px; 
+    margin-right: 5px; 
 }
 
 /* Responsive styles for smaller screens */
 @media screen and (max-width: 600px) {
     header {
-        flex-direction: column; /* Stack logo and navigation vertically on smaller screens */
+        flex-direction: column; 
         text-align: center;
     }
 
