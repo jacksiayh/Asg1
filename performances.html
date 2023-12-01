@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Set character set and viewport for responsiveness -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link to normalize.css for cross-browser consistency -->
     <link rel="stylesheet" href="normalize.css">
+    
+    <!-- Link to custom styles -->
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- Link to the JavaScript file for the image slider -->
     <script src="slider.js"></script>
+    
+    <!-- Set the title of the webpage -->
     <title>NPVSC Website | Contact Us </title>
+    
+    <!-- Preconnect to Google Fonts for improved loading performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Link to Google Fonts with specified font families -->
     <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,900&family=Dancing+Script&family=Edu+TAS+Beginner&family=Lato&family=Nosifer&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header section containing logo and navigation -->
     <header>
         <div class="logo">
+            <!-- Logo image -->
             <img src="Images/npvscLogo.png" alt="Logo">
         </div>
         <nav>
+            <!-- Navigation menu with links to different pages -->
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
@@ -24,7 +40,10 @@
             </ul>
         </nav>
     </header>
+    
+    <!-- Image slider container -->
     <div class="slider-container">
+        <!-- Individual slides with images -->
         <div class="slide fade">
             <img src="Images/D1.jpg" alt="Slide 1">
         </div>
@@ -38,29 +57,38 @@
             <img src="Images/D-Day.jpg" alt="Slide 4">
         </div>
 
+        <!-- Navigation buttons for the image slider -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        
     </div>
+    
+    <!-- Main content section -->
     <main>
+        <!-- Heading for the main content of the page -->
         <h1>Upcoming Performances</h1>
-
     </main>
 
+    <!-- Footer section with social media links and contact information -->
     <footer>
         <div class="socialmedia">
+            <!-- Show Choir social media platform -->
             <h3>Show Choir social media platform!</h3>
             <p><img src="Images/instagramlogo.png" alt="Instagram Icon"><a href="https://instagram.com/npvshowchoir?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">Our Instagram!</a></p>
         </div>
-            <h3>Voices social media platforms!</h3>
-            <p>Contact us at: <a href="mailto:cca_voices@connect.np.edu.sg">cca_voices@connect.np.edu.sg</a></p>
-            <p>Follow us on Instagram: <a href="https://www.instagram.com/npvoices/" target="_blank">npvoices</a></p>
+        
+        <!-- Voices social media platforms and contact information -->
+        <h3>Voices social media platforms!</h3>
+        <p>Contact us at: <a href="mailto:cca_voices@connect.np.edu.sg">cca_voices@connect.np.edu.sg</a></p>
+        <p>Follow us on Instagram: <a href="https://www.instagram.com/npvoices/" target="_blank">npvoices</a></p>
 
+        <!-- Copyright information -->
         <p>&copy; 2023 My Simple Website. All rights reserved.</p>
     </footer>
-
+    
+    <!-- Back to Top button with associated JavaScript -->
     <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
 
+    <!-- Include the BacktoTop.js script -->
     <script src="BacktoTop.js"></script>
 </body>
 </html>

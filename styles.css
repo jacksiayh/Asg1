@@ -1,13 +1,15 @@
+/* Global styles for the entire page */
 body {
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; /* Background color for the entire page */
 }
 
+/* Header styles */
 header {
-    background-color: peachpuff;
-    color: #fff;
+    background-color: peachpuff; /* Background color for the header */
+    color: #fff; /* Text color for the header */
     padding: 10px;
     display: flex;
     justify-content: space-between; 
@@ -16,11 +18,13 @@ header {
     height: auto;
 }
 
+/* Logo styles */
 .logo img {
     height: 100px;
     width: 100px;
 }
 
+/* Navigation styles */
 nav ul {
     list-style: none;
     margin: 0;
@@ -37,14 +41,14 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     padding: 10px 15px;
-    border-radius: 50%; 
+    border-radius: 50%; /* Circular border for navigation links */
     background-color: white;
     display: inline-block;
     max-width: 100%;
     height: auto;
 }
 
-
+/* Heading and paragraph styles */
 h1, h2, h3 {
     color: #333;
     font-family: 'Bitter', serif;
@@ -56,6 +60,7 @@ p {
     font-size: 1.2em;
 }
 
+/* Main content styles */
 main {
     padding: 20px;
     max-width: auto;
@@ -69,10 +74,12 @@ main h1 {
     margin-bottom: 10px;
 } 
 
+/* Welcome section styles */
 .welcome-section {
     margin-bottom: 20px;
 }
 
+/* Tagline styles */
 .tagline {
     font-size: 1.2em;
     color: #555;
@@ -80,6 +87,7 @@ main h1 {
     font-family: 'Dancing Script', cursive;
 }
 
+/* Split-screen layout styles */
 .split-screen {
     display: flex;
     height: 100vh;
@@ -87,7 +95,7 @@ main h1 {
 
 .image-half {
     flex: 1;
-    background: url(Images/SCwithLynn.jpg) center/cover; 
+    background: url(Images/SCwithLynn.jpg) center/cover; /* Background image for the image half */
     max-width: 100%;
     height: auto;
 }
@@ -104,6 +112,7 @@ main h1 {
     height: auto;
 }
 
+/* Blockquote and cite styles within the quote-half */
 .quote-half blockquote {
     font-size: 1.5em;
     margin-bottom: 10px;
@@ -117,9 +126,9 @@ main h1 {
     font-style: italic;
 }  
 
-
+/* Footer styles */
 footer {
-    background-color: peachpuff;
+    background-color: peachpuff; /* Background color for the footer */
     color: black;
     padding: 10px;
     text-align: center;
@@ -130,6 +139,7 @@ footer {
     height: auto;
 }
 
+/* Social media styles */
 .socialmedia {
     margin-bottom: 20px;
 }
@@ -139,11 +149,13 @@ footer {
     margin-right: 5px; 
 }
 
+/* Responsive image styles */
 .responsiveimg {
     max-width: 100%;
     height: auto;
 }
 
+/* Back to Top button styles */
 #backToTopBtn {
     display: none;
     position: fixed;
@@ -157,6 +169,7 @@ footer {
     cursor: pointer;
 }
 
+/* Image slider container styles */
 .slider-container {
     max-width: 800px;
     margin: auto;
@@ -165,6 +178,7 @@ footer {
     text-align: center; /* Center the images horizontally */
 }
 
+/* Image slider and navigation button styles */
 .slide {
     display: none;
     transition: opacity 1s ease-in-out;
@@ -184,7 +198,7 @@ footer {
     font-size: 20px;
     cursor: pointer;
     color: white;
-    background: rgba(0, 0, 0, 0.5); /* Adding a semi-transparent background for better visibility */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better visibility */
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -198,6 +212,7 @@ footer {
     right: 10px;
 }
 
+/* Dot container and styles for the image slider */
 .dot-container {
     text-align: center;
     margin-top: 20px;
@@ -217,25 +232,24 @@ footer {
     background-color: #717171;
 }
 
-
+/* About Show Choir section styles */
 .abtSC {
-    background-color: #f8d7da; /* Add your desired background color */
+    background-color: #f8d7da; /* Background color for the About Show Choir section */
     padding: 15px;
     border-radius: 8px;
     margin-top: 20px;
 }
 
+/* Fade animation for images in the image slider */
 .slide.fade img {
     max-width: 100%;
     height: auto;
 }
 
-
-
 /* Responsive styles for smaller screens */
 @media screen and (max-width: 600px) {
     header {
-        flex-direction: column; 
+        flex-direction: column; /* Change to column layout for smaller screens */
         text-align: center;
     }
 
