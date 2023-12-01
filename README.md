@@ -1,65 +1,98 @@
-# Asg1# Your Project's Name
+# Asg1# 
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
-Essentially, this part is your sales pitch.
+A website for Ngee Ann Polytechnic's Voices: Show choir.
  
 ## Design Process
- 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+As a member of the Voices club:
+I want to learn more about the club's activities and events on the "About Us" page so that I can stay informed and actively participate in club events.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+As a prospective member of Voices:
+I want to understand the benefits of joining the Voices club so that I can decide whether it aligns with my interests and goals.
+
+As a user interested in show choir performances:
+I want to know when the next performance is scheduled so that I can plan to attend and support NPVSC.
+
+My wireframe:
+[Wireframe](https://xd.adobe.com/view/7756a84f-4773-424d-a4c0-0051a11f1b8c-2205/)
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+Homepage:
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Welcome section with a tagline.
+- Split-screen design with an image and quotes.
+- Slider for showcasing images.
+- Navigation bar with links to Home, About Us, and Upcoming Performances.
+
+About Us Page:
+
+- Description of NPVSC and Voices club.
+- Image showcasing Voices club.
+- Information about practices, performances, and events.
+- Link to Acapella Instagram.
+
+Footer:
+
+- Social media links (Instagram) for NPVSC and Voices.
+- Contact information for Voices.
+- Copyright details.
+- "Back to Top" button for user convenience.
 
 ### Features Left to Implement
 - Another feature idea
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+1.) HTML:
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- Standard HTML5 structure for content.
 
+2.) CSS:
+
+- Styling to create a visually appealing and consistent design.
+- Responsive design using media queries.
+
+3.) Google Fonts:
+
+- Utilized Google Fonts for custom typography.
+
+4.) JavaScript:
+
+- Implemented for slider functionality (slider.js).
+- Smooth scrolling to the top (BacktoTop.js).
 
 ## Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Responsiveness:
+Tested the website on various devices and screen sizes.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+Functionality:
+Verified that all links and interactive elements are functional.
+Ensured smooth operation of the slider.
+Ensured smooth operation of the return to top button
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Cross-Browser Compatibility:
+Checked compatibility with different browsers (Chrome, Firefox, Safari).
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Accessibility:
+Included alt attributes for images.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+External Links:
+Configured external links to open in a new tab.
+
+User Feedback:
+Gathered feedback for refinements from classmates such as Farhan,Weehan and Caleb
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for about voices was copied from the [Ngee Ann Arts and Cultural page](https://www.np.edu.sg/student-life/clubs-societies/arts-cultural)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from pictures taken by myself or from the [NPVSC instagram page](https://instagram.com/npvshowchoir?igshid=OGQ5ZDc2ODk2ZA==)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from NPVSC and the memories I had when I practised with the members and performed live with them.
