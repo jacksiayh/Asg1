@@ -162,20 +162,32 @@ footer {
     margin: auto;
     position: relative;
     overflow: hidden;
+    text-align: center; /* Center the images horizontally */
 }
 
 .slide {
     display: none;
     transition: opacity 1s ease-in-out;
+    text-align: center; /* Center the images horizontally */
 }
 
-.prev, .next {
+.slide img {
+    width: 100%; /* Make sure the image fills the container */
+    height: auto;
+}
+
+.prev,
+.next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     font-size: 20px;
     cursor: pointer;
     color: white;
+    background: rgba(0, 0, 0, 0.5); /* Adding a semi-transparent background for better visibility */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 .prev {
@@ -213,6 +225,10 @@ footer {
     margin-top: 20px;
 }
 
+.slide.fade img {
+    max-width: 100%;
+    height: auto;
+}
 
 
 
