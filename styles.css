@@ -87,7 +87,7 @@ main h1 {
 
 .image-half {
     flex: 1;
-    background: url(SCwithLynn.jpg) center/cover; 
+    background: url(Images/SCwithLynn.jpg) center/cover; 
     max-width: 100%;
     height: auto;
 }
